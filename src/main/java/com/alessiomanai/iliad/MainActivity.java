@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         WebView finestra = findViewById(R.id.sito);
 
+        finestra.clearCache(true);
+        finestra.clearHistory();
+
         finestra.getSettings().setJavaScriptEnabled(true);
         finestra.getSettings().setLoadsImagesAutomatically(true);
         finestra.setWebViewClient(new WebViewClient());

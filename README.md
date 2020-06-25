@@ -3,9 +3,9 @@
 
 Questa applicazione permette di accedere direttamente alla tua area personale di Iliad senza aprire il browser. L'app è semplicemente la visualizzazione dell'interfaccia web mobile del sito con le stesse funzioni come la visualizzazione del credito e dei consumi, i dettagli sulla tariffa, la gestione della segreteria telefonica e le ricariche. 
 
-PlayStore: https://play.google.com/store/apps/details?id=com.alessiomanai.iliad
+SourceForge: https://iliad-app.sourceforge.io
 
-	Copyright (C) 2018  Alessio Manai
+	Copyright (C) 2018-2020  Alessio Manai
 
  	This program is free software: you can redistribute it and/or modify
  	it under the terms of the GNU General Public License as published by
