@@ -19,6 +19,7 @@ package com.alessiomanai.iliad;
  * 		alessiomanai.ml      alessio@manai.tk
  * */
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**LMAO SO COMPLEX CODE*/
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +42,17 @@ public class MainActivity extends AppCompatActivity {
 
         finestra.getSettings().setJavaScriptEnabled(true);
         finestra.getSettings().setLoadsImagesAutomatically(true);
-        finestra.setWebViewClient(new WebViewClient());
+        finestra.setWebViewClient(new WebViewClient(){
+            @Override
+            public void onPageFinished(WebView view, String url)
+            {
+                view.loadUrl("javascript:(function() { " +
+                        "document.getElementById('navbar').style.display='none'; " +
+                        "document.getElementById('footer').style.display='none'; " +
+                        "})()");
+
+            }
+        });
 
         finestra.setHorizontalScrollBarEnabled(true);
         finestra.setVerticalScrollBarEnabled(true);
