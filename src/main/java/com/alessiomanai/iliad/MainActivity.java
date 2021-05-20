@@ -1,7 +1,7 @@
 package com.alessiomanai.iliad;
 
 /**
- * Copyright (C) 2018  Alessio Manai
+ * Copyright (C) 2018-2021  Alessio Manai
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
