@@ -1,7 +1,7 @@
 package com.alessiomanai.iliad;
 
 /**
- * Copyright (C) 2018-2021  Alessio Manai
+ * Copyright (C) 2018-2022  Alessio Manai
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
             public void onPageFinished(WebView view, String url)
             {
                 view.loadUrl("javascript:(function() { " +
-                        "document.getElementById('navbar').style.display='none'; " +
                         "document.getElementById('footer').style.display='none'; " +
                         "})()");
 

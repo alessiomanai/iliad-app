@@ -5,7 +5,9 @@ Questa applicazione permette di accedere direttamente alla tua area personale di
 
 SourceForge: https://iliad-app.sourceforge.io
 
-	Copyright (C) 2018-2021  Alessio Manai
+	Iliad app
+
+	Copyright (C) 2018-2022  Alessio Manai
 
  	This program is free software: you can redistribute it and/or modify
  	it under the terms of the GNU General Public License as published by
